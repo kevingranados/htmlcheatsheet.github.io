@@ -1,0 +1,36 @@
+body {
+  background-color: lightgrey;
+  font-family: helvetica;
+}
+
+h1 {
+  font-size: 48px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 36px;
+  color: purple;
+  text-align: center;
+}
+
+table {
+  border: 2px solid purple;
+  border-collapse: separate;
+  width: 650px;
+}
+
+th {
+  background-color: violet;
+  border-bottom: 1px solid purple;
+}
+ tr, td {
+  border-bottom: 1px solid purple;
+}
+tr:last-child{
+  border-bottom: 0px solid purple;
+}
+
+.tags {
+  background-color: lemonchiffon;
+}
